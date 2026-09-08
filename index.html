@@ -474,68 +474,6 @@
       gap: 6px;
     }
 
-    /* ============ SOBRE MÍ ============ */
-    .sobre-mi {
-      background: var(--ink);
-      color: var(--bg);
-    }
-    .sobre-mi .section-eyebrow { color: var(--accent); }
-    .sobre-mi .section-title { color: var(--bg); }
-    .sobre-mi .section-sub { color: rgba(250, 250, 248, 0.7); }
-    .sobre-grid {
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      gap: 64px;
-      align-items: start;
-    }
-    @media (max-width: 800px) {
-      .sobre-grid { grid-template-columns: 1fr; gap: 40px; }
-    }
-    .avatar {
-      width: 100%;
-      aspect-ratio: 1;
-      background: linear-gradient(135deg, var(--accent) 0%, #FF8A65 100%);
-      border-radius: 12px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-family: 'Space Grotesk', sans-serif;
-      font-size: 96px;
-      font-weight: 700;
-      color: white;
-    }
-    .sobre-texto p {
-      font-size: 17px;
-      color: rgba(250, 250, 248, 0.85);
-      margin-bottom: 20px;
-    }
-    .sobre-texto strong { color: var(--bg); font-weight: 600; }
-    .sobre-bullets {
-      list-style: none;
-      margin: 32px 0;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 12px;
-    }
-    @media (max-width: 540px) { .sobre-bullets { grid-template-columns: 1fr; } }
-    .sobre-bullets li {
-      padding: 14px 18px;
-      background: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 8px;
-      font-size: 14px;
-      color: var(--bg);
-    }
-    .sobre-bullets li strong {
-      color: var(--accent);
-      display: block;
-      font-size: 12px;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      margin-bottom: 4px;
-      font-family: 'Space Grotesk', sans-serif;
-    }
-
     /* ============ CTA FINAL ============ */
     .cta-final {
       text-align: center;
@@ -719,7 +657,6 @@
         <li><a href="#proceso">Proceso</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
         <li><a href="#cotizador">Cotizar</a></li>
-        <li><a href="#sobre-mi">Sobre mí</a></li>
       </ul>
       <a href="https://wa.me/56984387546?text=Estimado%2C%20vi%20su%20sitio%20y%20quisiera%20cotizar%20un%20proyecto" class="nav-cta">WhatsApp</a>
     </div>
@@ -966,45 +903,6 @@
     </div>
   </section>
 
-  <!-- SOBRE MÍ -->
-  <section id="sobre-mi" class="sobre-mi">
-    <div class="container">
-      <div class="sobre-grid">
-        <div>
-          <div class="avatar">C</div>
-        </div>
-        <div class="sobre-texto">
-          <p class="section-eyebrow">Sobre mí</p>
-          <h2 class="section-title">Estimado/a, soy Claudio.</h2>
-          <p>Ingeniero en computación con más de <strong>10 años construyendo sistemas</strong> para empresas en Chile. He liderado proyectos de plataformas SaaS, sistemas de gestión y aplicaciones móviles con usuarios reales.</p>
-          <p>Trama nace porque me cansé de ver negocios locales con sitios web deficientes — o directamente sin sitio. Un buen sitio no requiere 3 meses ni $2.000.000. <strong>Requiere claridad, oficio y alguien que comprenda su negocio.</strong></p>
-          <p>Si requiere una web que se vea profesional y comunique seriedad, conversemos.</p>
-
-          <ul class="sobre-bullets">
-            <li>
-              <strong>Stack</strong>
-              HTML/CSS/JS, Cloudflare Pages, GitHub
-            </li>
-            <li>
-              <strong>Plazos</strong>
-              3-5 días para Landing, 1-2 semanas para Completo
-            </li>
-            <li>
-              <strong>Ubicación</strong>
-              Salamanca, IV región (también atiendo en forma remota)
-            </li>
-            <li>
-              <strong>Modalidad de pago</strong>
-              50% al iniciar, 50% contra entrega
-            </li>
-          </ul>
-
-          <a href="https://wa.me/56984387546?text=Estimado%20Claudio%2C%20quisiera%20conversar%20sobre%20mi%20proyecto" class="btn btn-primary">Hablemos por WhatsApp</a>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- CTA FINAL -->
   <section class="cta-final">
     <div class="container">
@@ -1029,6 +927,7 @@
           <li><a href="#planes">Planes</a></li>
           <li><a href="#proceso">Proceso</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#cotizador">Cotizar</a></li>
           <li><a href="https://wa.me/56984387546" target="_blank" rel="noopener">WhatsApp</a></li>
         </ul>
         <div class="footer-copy">
